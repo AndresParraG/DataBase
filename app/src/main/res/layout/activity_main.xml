@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creaci_d_un_nou_comentari" />
+
+    <EditText
+        android:id="@+id/titolNouComentari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="@string/t_tol_del_nou_comentari"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/textNouComentari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_weight="0.34"
+        android:hint="@string/text_del_nou_comentari"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/crear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crear"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccioni_un_comentari"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/veure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/veure"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/veure_comentari"/>
+
+    <EditText
+        android:id="@+id/titView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+
+    <EditText
+        android:id="@+id/commView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_weight="0.41"/>
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eliminar"/>
+
+</LinearLayout>

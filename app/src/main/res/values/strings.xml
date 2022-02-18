@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DataBase</string>
+    <string name="veure">VEURE</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="crear">CREAR</string>
+    <string name="t_tol_del_nou_comentari">Títol del nou comentari</string>
+    <string name="text_del_nou_comentari">Text del nou comentari</string>
+    <string name="creaci_d_un_nou_comentari">Creació d\'un nou comentari</string>
+    <string name="seleccioni_un_comentari">Seleccioni un comentari</string>
+    <string name="veure_comentari">Veure comentari</string>
+</resources>
